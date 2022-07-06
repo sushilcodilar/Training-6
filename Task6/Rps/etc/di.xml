@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Task6\Rps\Api\Data\RpsEntityInterface" type="Task6\Rps\Model\Rps" />
+    <preference for="Task6\Rps\Api\RpsEntityRepositoryInterface" type="Task6\Rps\Model\RpsEntityRepository" />
+</config>
